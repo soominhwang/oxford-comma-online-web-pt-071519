@@ -4,9 +4,9 @@ def oxford_comma(array)
   elsif array.size==2
     return array.join("and")
   elsif array.size==3
-    adds comma plus a final and
+    return array.join(",")
   else
-    correctly formats arrays of lengths
+    return array.length
   end
 end
 
