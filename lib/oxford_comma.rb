@@ -1,4 +1,5 @@
 def oxford_comma(array)
+  array=[]
   if array.size==1
     puts array.join
   elsif array.size==2
